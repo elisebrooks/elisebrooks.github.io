@@ -1,0 +1,109 @@
+<!DOCTYPE html> <!-- 1. doctype? -->
+<html lang="en">
+<head>
+    
+    <!-- <html language="en"> --> <!-- 2. should go in first html-->
+    <meta charset="UTF-8"> <!-- 3. charset? -->
+    <title>Error-Filled Page</title>
+</head> <!-- 4. </head> should be here-->  
+<body>
+    <h1>Welcome to My Error-Filled Page </h1> <!-- 5. </h1> should be here -->
+    
+    <!-- 6. <p> should be here --> <p> This is a paragraph with mismatched tags and missing closing tags.</p>
+    
+    <ol>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+        <li>Item 6</li>
+        <li>Item 7</li>
+        <li>Item 8</li>
+        <li>Item 9</li>
+        <li>Item 10</li>
+    </ol> <!-- 7. should be </ol> -->
+
+    <p>This is another paragraph without proper indentation. </p> <!-- 8. </p> should be here -->
+    
+    <img src="image.jpg" alt="Programmer Image"> <!-- 9. should have alt desc -->
+
+    <a href="https://www.example.com" target="_blank">Click me!</a> <!-- 10. </img> should be </a> -->
+
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>John</td>
+            <td>25</td> <!-- 11. need </td> -->
+        </tr>
+        <tr>
+            <td>Jane</td>
+            <td>30</td>
+        </tr>
+    </table> <!-- 12. should have </table> here-->
+    <img src="error.jpeg" alt="Error Image"> <!-- 13. use src instead of source -->
+
+    <center>This is centered text.</center>
+
+    <p style="background-color:lightgray">Text</p> <!-- 14. use style = "background-color: ..." -->
+
+    <input type="button" value="Click me">
+
+    <!-- This is an unclosed comment --> <!-- 15. close comment -->
+
+    <a href="#">Link without closing tag </a> <!-- 16. </a> here -->
+
+    <p><u>Underlined text</u></p> <!-- 17. </p> after </em> --> <!-- 18. <em> should be <u> -->
+
+    <dl>
+        <dt>Descriptive Item Title</dt> <!-- 19. should be <dt> -->
+        <dd>Descriptive Item Text</dd> <!-- 20. should be <dd> -->
+    </dl>
+</body>
+</html>
+
+<!--
+1. missing doctype for the document
+    fix - add <!DOCTYPE html> before all other code (should be first line)
+2. the <html language = "en"> should be in the first <html>, not <head>
+    fix - move attribute so first <html> instance is <html lang="en">
+3. missing charset from document
+    fix - add <meta charset="UTF-8"> into head
+4. head is missing closing tag (head should close before body opens)
+    fix - add </head> in line above <body>
+5. missing closing tag for <h1>
+    fix - add </h1> after 'Page'
+6. missing opening tag for paragraph
+    fix - add <p> before 'This'
+7. the closing tag for ol should be </ol>, not </ul>
+    fix - change </ul> to </ol>
+8. missing closing tag for paragraph
+    fix - add </p> after 'indentation'
+9. this image is missing an alt description
+    fix - add alt="..." in <img>, i chose alt="Programmer Image"
+10. closing tag should be </a> instead of </img>
+    fix - change </img> to </a>
+11. in <td> 25, the closing tag does not have a slash, so it is an opening tag
+    fix - add / to <td> at end to make it a closing tag (<td> 25 </td>)
+12. missing closing tag for <table>
+    fix - add </table> after last </tr>
+13. source attribute for image is used incorrectly, should be src
+    fix - change source="error.jpeg" to src="error.jpeg"
+14. incorrect formatting to get background color for a paragraph, should use style="background-color:..."
+    fix - change bgcolor="lightgray" to style="background-color: lightgray"
+15. comment is missing closing bracket
+    fix - add "-- >" after "comment" (without space)
+16. missing closing tag for <a> element
+    fix - add </a> after "tag"
+17. the closing tags are not in the right order. because <p> is opened first, it should be closed last.
+    fix - flip positions of closing tags, change <p><em>Underlined text</p></em> to <p><em>Underlined text</em></p>
+18. <em> italicizes text, so <u> should be used to underline text
+    fix - replace <em>...</em> with <u>...</u>
+19. a descriptive item title in a descriptive list would be a descriptive term <dt> not a list item <li>
+    fix - change <li>...</li> to <dt>...</dt>
+20. descriptive item text in a DL would be a descriptive definition <dd>, not a list item <li>
+    fix - change <li>...</li> to <dd>...</dd>
+-->
