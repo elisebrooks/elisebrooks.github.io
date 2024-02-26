@@ -3,16 +3,8 @@ body{
     background-size: 110%;
     background-repeat: no-repeat;
     background-position-x: -100px;
-    border: 1px solid rgba(0, 0, 0, 0);
-
-}
-.blocker{
-
-    width:auto;
-    height:auto;
 }
 .logo{
-    display:block;
     position: absolute;
     top: 20px; left: 20px;
     width: 100px;
@@ -27,7 +19,6 @@ body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .logo2{
-    display: inline-block;
     position: relative;
     top: 1.5px; left: 140px;
     font-size: 40px;
