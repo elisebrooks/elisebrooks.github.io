@@ -10,7 +10,7 @@ body{
     border-radius:10px;
     background-color: mediumseagreen;
     position: absolute;
-    top: 20vw;
+    top: 30vw; bottom: 50vw; 
     /* float: top; */
     /* margin-right: 10px; */
 }
