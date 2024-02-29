@@ -9,7 +9,7 @@ body{
     border-width: 3px;
     border-radius:10px;
     background-color: mediumseagreen;
-    position: relative;
+    position: absolute;
     top: 20vw;
     /* float: top; */
     /* margin-right: 10px; */
@@ -46,7 +46,7 @@ background-color: orangered;
 position:relative;
 /* margin-bottom: 10px; */
 /* float: top; */
-top: -38vw;
+top: 1vw;
 }
 
 #text3 {
