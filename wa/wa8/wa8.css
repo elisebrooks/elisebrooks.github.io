@@ -34,7 +34,7 @@ img{
     width:35vw;
     height: 55vh;
     position: absolute;
-    left: 31vw; top: 30vh;
+    left: 30vw; top: 30vh;
     animation: 5s star-move infinite alternate;
 }
 @keyframes star-move{
