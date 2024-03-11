@@ -31,10 +31,10 @@ nav a:hover{
     color: pink;
 }
 img{
-    width:45vw;
+    width:35vw;
     height: 55vh;
     position: absolute;
-    left: 25vw; top: 29vh;
+    left: 30vw; top: 30vh;
     animation: 5s star-move infinite alternate;
 }
 @keyframes star-move{
