@@ -1,0 +1,60 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: brown;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(80, 13, 31);
+}
+nav{
+    height: 50vh;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height:20px;
+    background-color: pink;
+    position: absolute;
+    top: 10vh;
+    
+}
+nav a{
+    width: 15vw;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(80, 13, 31);
+    font-size: 17px;
+}
+
+nav a:hover{
+    transition: all 0.5s ease-out;
+    background-color: rgb(80, 13, 31);
+    color: pink;
+}
+img{
+    width:45vw;
+    height: 55vh;
+    position: absolute;
+    left: 25vw; top: 29vh;
+    animation: 5s star-move infinite alternate;
+}
+@keyframes star-move{
+    from{
+       transform: rotate(30deg);
+    }
+    to{
+       transform: rotate(360deg);
+    }
+   
+   }
+#star{
+    
+    background-image: url(star.jpg);
+    width: 40px;
+    height:40px;
+    border-radius: 50%;
+    position: absolute;
+    left:15vw;
+   
+    
+    
+}
