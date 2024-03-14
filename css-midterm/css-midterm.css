@@ -1,0 +1,386 @@
+body{
+    /* background-color: rgb(217, 195, 169); */
+    background-color: peachpuff;
+    font-family: legitima;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.flex{
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.line{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+    width: 78vw;
+    height: 0vw;
+    border-top: 0.001px;
+    border-style: solid;
+    position: relative;
+    top: 0vw;
+    left: 10.2vw;
+    /* order:3; */
+    /* margin-top: -100px; */
+}
+
+/* there has got to be a shorter way to do this ): */
+.date1{
+    grid-area: date1;
+}
+.title1{
+    grid-area: title1;
+}
+.about1{
+    grid-area: about1;
+    
+}
+.artists1{
+    grid-area: artists1;
+}
+.repertoire1{
+    grid-area: repertoire1;
+}
+.date2{
+    grid-area: date2;
+}
+.title2{
+    grid-area: title2;
+}
+.about2{
+    grid-area: about2;
+}
+.artists2{
+    grid-area: artists2;
+}
+.repertoire2{
+    grid-area: repertoire2;
+}
+.date3{
+    grid-area: date3;
+}
+.title3{
+    grid-area: title3;
+}
+.about3{
+    grid-area: about3;
+}
+.artists3{
+    grid-area: artists3;
+}
+.repertoire3{
+    grid-area: repertoire3;
+}
+.date4{
+    grid-area: date4;
+}
+.title4{
+    grid-area: title4;
+}
+.about4{
+    grid-area: about4;
+}
+.artists4{
+    grid-area: artists4;
+}
+.repertoire4{
+    grid-area: repertoire4;
+}
+.date5{
+    grid-area: date5;
+}
+.title5{
+    grid-area: title5;
+}
+.about5{
+    grid-area: about5;
+}
+.artists5{
+    grid-area: artists5;
+}
+.repertoire5{
+    grid-area: repertoire5;
+}
+.date6{
+    grid-area: date6;
+}
+.title6{
+    grid-area: title6;
+}
+.about6{
+    grid-area: about6;
+}
+.artists6{
+    grid-area: artists6;
+}
+.repertoire6{
+    grid-area: repertoire6;
+}
+.date7{
+    grid-area: date7;
+}
+.title7{
+    grid-area: title7;
+}
+.about7{
+    grid-area: about7;
+}
+.artists7{
+    grid-area: artists7;
+}
+.repertoire7{
+    grid-area: repertoire7;
+}
+.date8{
+    grid-area: date8;
+}
+.title8{
+    grid-area: title8;
+}
+.about8{
+    grid-area: about8;
+    border-top: 1px solid black;
+}
+.artists8{
+    grid-area: artists8;
+}
+.repertoire8{
+    grid-area: repertoire8;
+    
+}
+.date9{
+    grid-area: date9;
+}
+.title9{
+    grid-area: title9;
+}
+.about9{
+    grid-area: about9;
+}
+.artists9{
+    grid-area: artists9;
+}
+.repertoire9{
+    grid-area: repertoire9;
+}
+/* .row{
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 90%;
+}
+.column{
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 90%;
+} */
+.grid{
+    display:grid;
+    font-size: 18px;
+    grid-template-columns: 4;
+    grid-template-rows: 18;
+    row-gap: 10vh;
+    column-gap: 5vh;
+    grid-template-areas:
+        /*'date2 title2 artists2 repertoire2 about2 about2'
+        'date3 title3 artists3 repertoire3 about3 about3'
+        'date4 title4 artists4 repertoire4 about4 about4'
+        'date5 title5 artists5 repertoire5 about5 about5'
+        'date6 title6 artists6 repertoire6 about6 about6'
+        'date7 title7 artists7 repertoire7 about7 about7'
+        'date8 title8 artists8 repertoire8 about8 about8'
+        'date9 title9 artists9 repertoire9 about9 about9'; */
+        'date1 title1 artists1 repertoire1'
+        'about1 about1 about1 about1'
+        'date2 title2 artists2 repertoire2'
+        'about2 about2 about2 about2'
+        'date3 title3 artists3 repertoire3'
+        'about3 about3 about3 about3'
+        'date4 title4 artists4 repertoire4'
+        'about4 about4 about4 about4'
+        'date5 title5 artists5 repertoire5'
+        'about5 about5 about5 about5'
+        'date6 title6 artists6 repertoire6'
+        'about6 about6 about6 about6'
+        'date7 title7 artists7 repertoire7'
+        'about7 about7 about7 about7'
+        'date8 title8 artists8 repertoire8'
+        'about8 about8 about8 about8'
+        'date9 title9 artists9 repertoire9'
+        'about9 about9 about9 about9';
+    padding-top: 5vw;
+    padding-bottom: 5vh;
+    place-items: center;
+    text-align: center;
+    margin: auto;
+    width: 70vw;
+   
+
+}
+
+h1{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: auto;
+    padding-top: 14vh;
+    text-align: center;
+    font-family: luke-variable;
+    font-size: 60px;
+    font-variation-settings: "wght" 100;
+    /* order: 1; */
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: relative;
+    width: 50vw;
+    height: 25vh;
+    margin:auto;
+    text-align: center;
+    font-size: 20px;
+    font-family: minion-pro-display;
+    /* order:2; */
+    
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 200px;
+    position: relative;
+    left: -2vw;
+    /* padding-bottom: -2px; */
+    
+    
+}
+
+nav a{
+    text-align: center;
+    font-size: 30px;
+    width: 15vw;
+    font-weight: bold;
+    font-family:brea-variable;
+    
+}
+
+.about{
+    border-top: 1px solid black;
+    border-bottom: 3px solid black;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    font-family: minion-pro-display;
+}
+
+.date{
+    font-size: 25px;
+    font-style: bold;
+}
+
+.artists{
+    font-size: 25px;
+    font-style: bold;
+
+}
+
+.repertoire{
+    font-size: 25px;
+    font-style: bold;
+
+}
+
+.title{
+    font-size: 25px;
+    
+    
+    
+}
+
+/* .triangle-left {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 75px 129.9px 75px 0;
+    border-color: transparent black transparent transparent;
+    position: absolute;
+    top: 32.5vh; right: 10vw;
+  }
+  .triangle-right {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 75px 0 75px 129.9px;
+    border-color: transparent transparent transparent black;
+    position: absolute;
+    top: 32.5vh; left: 10vw;
+  }
+  .rectangle{
+    width: 300px;
+    height: 149.5px;
+    background:black;
+    position: absolute;
+    top: 32.5vh; left: -9.6vw;
+  }
+  .rectangle-right{
+    width: 300px;
+    height: 149.5px;
+    background:black;
+    position: absolute;
+    top: 32.5vh; right: -9.6vw;
+  } */
+
+@media screen and (max-width: 800px){
+    .grid{
+      display: flex;
+      flex-direction: column;
+      flex-flow: column wrap-reverse;
+      flex-basis: 100%;
+      flex-shrink: 1;
+      overflow: visible;
+      padding-bottom: 5vh;
+      gap: 15px;
+      position: relative;
+      top: -3vw;
+      
+    }
+    .about{
+        padding-top: 25px;
+        padding-bottom: 25px;
+        font-size: 17px;
+    }
+    .date{
+        font-size: 19px;
+        font-style: bold;
+    }
+    
+    .artists{
+        font-size: 19px;
+        font-style: bold;
+    }
+    
+    .repertoire{
+        font-size: 19px;
+        font-style: bold;
+    }
+    
+    .title{
+        font-size: 19px;
+        padding-bottom: 0;
+        
+    }
+    
+    .intro{
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+    
+    
+    
+}
