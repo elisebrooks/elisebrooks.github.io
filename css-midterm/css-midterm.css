@@ -238,8 +238,8 @@ h1{
     flex-direction: column;
     flex-wrap: wrap;
     flex-basis: 100%;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 100px;
+    padding-bottom: 110px;
     position: relative;
     width: 50vw;
     height: 25vh;
