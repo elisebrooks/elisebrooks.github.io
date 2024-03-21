@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICA10</title>
+    <!-- <script src="ica10.js" defer></script> -->
+</head>
+<body style="background-color:bisque">
+    <h1>Hello!</h1>
+    <p style="color: hotpink">this will change color when you click!</p>
+    <script>
+    let bool1 = true;
+        function transform(){
+            if(bool1 === true){
+                document.querySelector("p").style.color = "purple";
+                bool1 = false;
+                return;
+            }
+            if(bool1 === false){
+                document.querySelector("p").style.color = "hotpink";
+                bool1 = true;
+                return;
+            }
+            
+        }
+        const clicker1 = document.addEventListener("click", transform);
+
+    let bool2 = true;
+    function transform2(){
+        if(bool2 === true){
+            document.querySelector("h1").innerHTML = "Goodbye!";
+            bool2 = false;
+            return;
+        }
+        if(bool2 === false){
+            document.querySelector("h1").innerHTML = "Hello!";
+            bool2 = true;
+            return;
+        }
+        
+    }
+    const clicker2 = document.addEventListener("click", transform2);
+    </script>
+    <div></div>
+</body>
+</html>
