@@ -7,41 +7,33 @@
     <title>ICA10</title>
     <!-- <script src="ica10.js" defer></script> -->
 </head>
-<body style="background-color:bisque">
-    <h1>Hello!</h1>
-    <p style="color: hotpink">this will change color when you click!</p>
+<body style="background-color:rgb(166,159,149); text-align: center; margin:auto">
+    <h1>Watermelon!</h1>
+    <p style="color:crimson">this will change color when you click!</p>
+    <img src="watermelon.jpg" style="width: 50vw; padding-top: 10px" alt="watermelon stamp">
     <script>
-    let bool1 = true;
+        let bool = true;
         function transform(){
-            if(bool1 === true){
-                document.querySelector("p").style.color = "purple";
-                bool1 = false;
+            if(bool === true){
+                document.querySelector("p").style.color = "pink";
+                document.querySelector("h1").innerHTML = "My Melody!";
+                document.querySelector("img").src = "myMelody.jpg";
+                document.querySelector("img").alt = "my melody stamp";
+                bool = false;
                 return;
             }
-            if(bool1 === false){
-                document.querySelector("p").style.color = "hotpink";
-                bool1 = true;
+            if(bool === false){
+                document.querySelector("p").style.color = "crimson";
+                document.querySelector("h1").innerHTML = "Watermelon!";
+                document.querySelector("img").src = "watermelon.jpg";
+                document.querySelector("img").alt = "watermelon stamp";
+                bool = true;
                 return;
             }
             
         }
-        const clicker1 = document.addEventListener("click", transform);
+        const clicker = document.addEventListener("click", transform);
 
-    let bool2 = true;
-    function transform2(){
-        if(bool2 === true){
-            document.querySelector("h1").innerHTML = "Goodbye!";
-            bool2 = false;
-            return;
-        }
-        if(bool2 === false){
-            document.querySelector("h1").innerHTML = "Hello!";
-            bool2 = true;
-            return;
-        }
-        
-    }
-    const clicker2 = document.addEventListener("click", transform2);
     </script>
     <div></div>
 </body>
