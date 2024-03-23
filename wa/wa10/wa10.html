@@ -8,8 +8,13 @@
 
     <style>
       body {
-        font-family: helvetica, sans-serif;
+        font-family:'Courier New', Courier, monospace;
         width: 350px;
+        background-color: rgb(166,159,149);
+        text-align: center;
+        margin: auto;
+        padding-top: 25vh;
+        
       }
 
       label {
@@ -26,9 +31,10 @@
       }
 
       p {
-        background: #ffc125;
+        background: pink;
+        border-radius: 20px;
         color: #5e2612;
-        padding: 10px;
+        padding: 40px;
         visibility: hidden;
       }
     </style>
@@ -37,7 +43,7 @@
   <body>
     <div>
       <label for="customname">Enter custom name:</label>
-      <input id="customname" type="text" placeholder="" />
+      <input id="customname" type="text" placeholder="" style="border-radius: 10px"/>
     </div>
     <div>
       <label for="us">US</label
@@ -46,7 +52,7 @@
       ><input id="uk" type="radio" name="ukus" value="uk" />
     </div>
     <div>
-      <button class="randomize">Generate random story</button>
+      <button class="randomize" style="font-family:'Courier New', Courier, monospace; font-weight: bold; background-color: plum; border-radius:200px; width: 200px; height: 40px; margin-top: 13px;">Generate random story</button>
     </div>
     <!-- Thanks a lot to Willy Aguirre for his help with the code for this assessment -->
     <p class="story"></p>
