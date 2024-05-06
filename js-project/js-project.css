@@ -1,0 +1,126 @@
+/* canvas {
+    width: 100.5vw;
+    height: 100vh;
+    background-color: rgb(166,159,149);
+    margin-top: -1vh;
+    margin-left: -1vw;
+    margin-bottom: -3vh;
+    margin-right: -3vw;
+} */
+body{
+    background-color: rgb(131,134,150);
+}
+
+#text_input{
+    /* margin-top: 70vh; */
+    margin-left: 28vw;
+    width: 50vw;
+    height: 20vh;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color:rgb(223, 206, 221);
+}
+
+.words{
+    margin-left: 49vh;
+    margin-top: 0vh;
+    margin-bottom: -55vh;
+    /* text-align: center; */
+    position: relative;
+    width: 50vw;
+    height: 30vh;
+    font-size: 25px;
+}
+ #increase{
+    padding: 10px;
+ }
+
+ #decrease{
+   padding: 10px;
+ }
+
+ .buttons{
+    padding-top: 50vh;
+    padding-left: 37vw;
+    display: block;
+ } 
+button{
+    /* padding-top: 50vh;
+    padding-left: 37vw; */
+    display: inline-block;
+    position: relative;
+    font-size: 20px;
+}
+button:hover{
+    background-color: pink;
+}
+
+ #radios{
+    margin-top: -3.0vh;
+    margin-bottom: 3vh;
+    margin-left: 57vw;
+    position: relative;
+ }
+ label{
+    font-size: 20px;
+    padding-right: 10px;
+ }
+
+ #wpm{
+    font-size: 100px;
+    position: relative; 
+    display: inline;
+    margin-bottom: 0px;
+    margin-left: 10vw;
+ }
+ #wpm2{
+    font-size: 25px;
+    position: relative; 
+    display: inline;
+    margin-bottom: 0px;
+    margin-left: 11.4vw;
+ }
+
+ #volume{
+    font-size: 100px;
+    position: relative; 
+    display: inline;
+    margin-left: 10vw;
+ }
+ #volume2{
+    font-size: 25px;
+    position: relative; 
+    display: inline;
+    margin-left: 12.4vw;
+ }
+
+ #timer{
+    font-size: 100px;
+    position: relative; 
+    display: inline;
+    margin-left: 22.5vw;
+ }
+ #timer2{
+    font-size: 25px;
+    position: relative; 
+    display: inline;
+    margin-left: 32.3vw;
+ }
+
+ .above{
+    padding: 10vw;
+    padding-top: 6vw;
+    padding-bottom: -10vh;
+    /* margin-left: 100px; */
+ }
+ .above2{
+    margin-top: -10vw;
+    margin-bottom: 10vh;
+    /* margin-left: 100px; */
+ }
+
+ 
+/* .grid{
+    display: grid;
+    justify-items: center;
+} */

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="js-project.css">
+    <title>Typing Test Volume Changer</title>
+</head>
+<body class="grid">
+    <!-- <canvas></canvas> -->
+    
+    <div class="above">
+        <p id="timer"> </p>
+    
+    
+        <p id="wpm">00</p>
+    
+        <p id="volume">00</p> <br>
+        
+    </div>
+    <div class="above2"><p id="timer2">timer (sec)</p>
+        <p id="wpm2">wpm</p>
+        <p id="volume2">volume</p></div>
+
+    <div class="words">
+        <p id = "p">1.  Increase or decrease volume with typing speed (wpm)? <br>
+            2.  Click new words for text to type (will replace instructions). <br>
+            3.  Click reset to clear text and restart timer. Refresh page to restart all to 0. <br>
+            4.  Timer starts when clicking into text box. Type away!
+        </p>
+    </div>
+    
+    
+    <section class="buttons">
+    <button  type="button" id="new_words" onclick="randomWords()">words</button>
+    <button type="button" id="clear" onclick="clearContent()">reset</button>
+        </section>
+        <section id="radios">
+    <input type="radio" id="increase" name="direction"></input>
+    <label for="increase">increase</label>
+    <input type="radio" id="decrease" name="direction"></input>
+    <label for="decrease">decrease</label>
+    </section>
+    <input type="text" id="text_input" placeholder="start typing here" oninput="printInput()" onclick="startTimer()"></input>
+    
+</body>
+<script src="js-project.js"></script>
+</html>
