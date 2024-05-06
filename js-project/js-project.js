@@ -22,11 +22,12 @@ const timeLimit = 30;
 let pText = document.getElementById("p");
 
 let volume = 0;
-let num = 0;
+let num = 2;
+let selectedWords;
 function randomWords() {
     pText.textContent = "";
     num = Math.floor(Math.random(0, 3));
-    let selectedWords = wordsArr[num];
+    selectedWords = wordsArr[num];
 
 for(let i = 0; i < selectedWords.length; i++){
     if(i === 0){
